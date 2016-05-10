@@ -1,0 +1,170 @@
+#kendoUiMobileApp .image-with-text img {
+    float: left;
+    margin-right: 15px;
+}
+
+#kendoUiMobileApp .block {
+    display: block;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+}
+
+#kendoUiMobileApp .button-group,
+#kendoUiMobileApp .icon-group {
+    width: 100%;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 1em;
+}
+
+#kendoUiMobileApp .button-group {
+    table-layout: fixed;
+}
+
+#kendoUiMobileApp .button-group .km-button {
+    display: table-cell;
+    padding: .6em .8em;
+    margin: 1em 0;
+}
+
+#kendoUiMobileApp .button-group.button-group-vertical .km-button {
+    display: block;
+}
+
+#kendoUiMobileApp .group-separator {
+    border: none;
+    background: transparent;
+}
+
+#kendoUiMobileApp .group-separator-header {
+    margin: 1em 0;
+}
+
+#kendoUiMobileApp .app-icon {
+    text-align: center;
+    margin: 3em 0;
+}
+
+#kendoUiMobileApp .view-title {
+    text-align: center;
+    font-weight: normal;
+}
+
+#kendoUiMobileApp .km-drawer-button:after,
+#kendoUiMobileApp .km-drawer-button:before {
+    content: '\e077';
+}
+
+#kendoUiMobileApp form .form-content li p {
+    margin: 0;
+    padding: 0;
+}
+
+#kendoUiMobileApp .icon-group .app-icon,
+#kendoUiMobileApp .icon-group .app-details {
+    display: table-cell;
+    vertical-align: top;
+}
+
+#kendoUiMobileApp .icon-group .app-icon {
+    margin: 0;
+    width: 5em;
+    overflow: hidden;
+    text-align: left;
+}
+
+#kendoUiMobileApp .icon-group .app-icon img {
+    display: block;
+    max-width: 5em;
+    height: auto;
+}
+
+#kendoUiMobileApp .icon-group .app-details h2,
+#kendoUiMobileApp .icon-group .app-details h4 {
+    font-weight: normal;
+    margin: 0;
+}
+
+#kendoUiMobileApp .icon-group .app-details h4 {
+    color: #828282;
+    margin-top: 0.5em;
+}
+
+#kendoUiMobileApp #navigation-container.km-tabstrip .km-button .km-text {
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+#kendoUiMobileApp .unsupported-preview {
+    text-align: center;
+    margin-top: 12rem;
+}
+
+#kendoUiMobileApp .info-icon {
+    margin: 0 auto;
+    width: 3.3rem;
+    height: 3.3rem;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAABIklEQVRoge3YMU4CURDG8R+KqImGxNoTWNgYqSgtvYBn8EY2nkE7LTwItbGUwhgLFSxgLTS4i4w+SOafTDc73/vydva9HZIkSZIlooNrPM6IK2wUW10DehjXRC9ScC2ymMkOROQ0JtrAv5MGvjAKyinGLgZmN/AAO5GCrchiU9rY9313R7jH2x9oJslvieqBU5z5+Zowwh0ugjTD6OBF/RWiioNI8YhzYBtbc+TvBWh+kiexwt/1CAPPuMR7QK3i9NU3cT9SMHugNGmgNGmgNCtvYD2ozjHOcYLDmtxNHOEJD0H6C9HGUPPbaBXD6bPF6Zp/8VV0FxVf+R6IMLDInGdpZkS35n99biKEo/6JWyazoKaj81eTGdE4SD9JkiRJVpMPXjloDVm2S04AAAAASUVORK5CYII=');
+    background-repeat: no-repeat;
+}
+
+#kendoUiMobileApp .editableListItem span {
+    float: left;
+}
+
+#kendoUiMobileApp .km-content .details-content .editableListItem {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#kendoUiMobileApp .km-content .details-content p,
+#kendoUiMobileApp.km-nova .km-content .details-content h3 {
+    padding: 1rem;
+    margin: 0;
+}
+
+#kendoUiMobileApp .km-content .details-content .editableListItem:first-of-type {
+    border-top: 0;
+}
+
+#kendoUiMobileApp .details-content .editableListItem + .editableListItem {
+    border-top: 0;
+}
+
+#kendoUiMobileApp .km-content li label:not(.km-label-above) > span:not(.km-widget),
+#kendoUiMobileApp .editableListItem > span {
+    display: inline-block;
+    word-break: break-word;
+    width: 50%;
+    padding-right: 10px;
+}
+
+#kendoUiMobileApp .km-content li p {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#kendoUiMobileApp .editableListItem {
+    overflow: hidden;
+    width: 100%;
+}
+
+#kendoUiMobileApp.km-ios7 .button-group .km-button.primary {
+    color: #fff;
+    background-color: #007aff;
+}
+
+#kendoUiMobileApp.km-android .button-group .km-button.primary {
+    color: #fff;
+    background-color: #33b5e5;
+}
+
+
+/* START_CUSTOM_CODE_kendoUiMobileApp */
+
+
+/* Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes */
+
+
+/* END_CUSTOM_CODE_kendoUiMobileApp */

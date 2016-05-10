@@ -1,0 +1,45 @@
+{
+  "ProjectName": "Documanager 1.0",
+  "ProjectGuid": "a00030df-5994-4588-91e3-add2cd8fcf1e",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.Documanager10",
+  "DisplayName": "Documanager 1.0",
+  "Author": "",
+  "Description": "Documanager 1.0",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "4.0.0",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "true",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [
+    "ID_CAP_NETWORKING",
+    "ID_CAP_WEBBROWSERCOMPONENT"
+  ],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{994283ac-a960-4ad8-89f1-e0ef437caad6}",
+  "WP8ProductID": "{43505ff1-f647-4ece-bbd3-006cf128dfef}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "1234Telerik.Documanager10",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ]
+}

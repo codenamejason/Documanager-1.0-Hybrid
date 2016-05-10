@@ -1,0 +1,38 @@
+{
+  "type": "kendo-ui-mobile",
+  "views": [
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "homeView",
+      "components": [],
+      "title": "Home View",
+      "addToNavigation": true,
+      "icon": "home"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "settingsView",
+      "components": [],
+      "title": "Settings",
+      "addToNavigation": true,
+      "icon": "settings"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "contactsView",
+      "components": [],
+      "title": "Contacts",
+      "addToNavigation": true,
+      "icon": "contacts"
+    }
+  ],
+  "dataProviders": [],
+  "name": "kendoUiMobileApp",
+  "navigation": "drawer",
+  "view": "homeView",
+  "showMoreTab": false,
+  "skin": "nova",
+  "skinMainColor": "#32364c",
+  "skinTextColor": "#ffffff",
+  "skinAccentColor": "#ff4350"
+}
