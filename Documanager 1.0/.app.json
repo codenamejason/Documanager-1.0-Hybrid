@@ -26,7 +26,16 @@
       "icon": "contacts"
     }
   ],
-  "dataProviders": [],
+  "dataProviders": [
+    {
+      "type": "kendo-ui-mobile:dataProvider",
+      "name": "documanager10",
+      "title": "Documanager 1.0 / Documanager 1.0",
+      "source": "everlive",
+      "everliveKey": "w2rcjozjc61vb696",
+      "offlineStorage": true
+    }
+  ],
   "name": "kendoUiMobileApp",
   "navigation": "drawer",
   "view": "homeView",
