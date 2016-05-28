@@ -11,48 +11,56 @@
     },
     {
       "type": "kendo-ui-mobile:view",
-      "name": "settingsView",
+      "name": "servicesView",
       "components": [],
-      "title": "Settings",
+      "title": "Services",
       "addToNavigation": true,
-      "icon": "settings"
+      "icon": "action"
     },
     {
       "type": "kendo-ui-mobile:view",
       "name": "contactsView",
       "components": [],
-      "title": "Contacts",
+      "title": "Contact Us",
       "addToNavigation": true,
       "icon": "contacts"
     },
     {
       "type": "kendo-ui-mobile:view",
-      "name": "masterDetailView",
+      "name": "privacyView",
+      "components": [],
+      "title": "Privacy",
+      "addToNavigation": true,
+      "icon": "info"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "productView",
       "components": [
         {
           "type": "kendo-ui-mobile:editableList",
           "listExtraFields": [],
           "detailExtraFields": [],
           "components": [],
-          "name": "masterDetailViewModel",
+          "name": "productsViewModel",
           "dataProvider": "documanager10",
-          "collection": "dbo_Customers",
-          "headerField": "ContactName",
+          "collection": "dbo_Products",
+          "headerField": "ProductName",
           "iconField": true,
-          "subHeaderField": "Phone",
+          "subHeaderField": "UnitPrice",
           "pullToRefresh": true,
           "endlessScroll": false,
           "deleteItemButton": false,
           "detailHeaderFieldSource": "dataBound",
           "detailHeaderField": "Id",
-          "detailSubHeaderField": "ContactName",
+          "detailSubHeaderField": "ProductName",
           "addItemForm": false,
           "editItemForm": false
         }
       ],
-      "title": "Master Detail",
+      "title": "Getting Started",
       "addToNavigation": true,
-      "icon": "organize"
+      "icon": "play"
     }
   ],
   "dataProviders": [
