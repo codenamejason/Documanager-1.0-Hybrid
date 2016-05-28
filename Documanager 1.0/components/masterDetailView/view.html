@@ -1,0 +1,19 @@
+<div data-role="view" data-title="Master Detail" data-layout="main" data-model="app.masterDetailView" data-show="app.masterDetailView.onShow" data-after-show="app.masterDetailView.afterShow">
+
+    <!-- START_CUSTOM_CODE_masterDetailView -->
+    <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
+
+    <!-- END_CUSTOM_CODE_masterDetailView -->
+    <ul data-role="listview" data-auto-bind="false" data-style="inset" data-template="masterDetailViewModelTemplate" data-bind="{ source: masterDetailViewModel.dataSource, events: {click: masterDetailViewModel.itemClick} }" data-pull-to-refresh="true" data-endless-scroll="false">
+    </ul>
+    <!-- START_CUSTOM_CODE_masterDetailViewModel -->
+    <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
+
+    <!-- END_CUSTOM_CODE_masterDetailViewModel -->
+    <script type="text/x-kendo-template" id="masterDetailViewModelTemplate">
+        <div class="image-with-text">
+            <h3><span class="#: data.icon() #"></span>#: data['ContactName'] #</h3>
+            <p>#: data['Phone'] #</p>
+        </div>
+    </script>
+</div>

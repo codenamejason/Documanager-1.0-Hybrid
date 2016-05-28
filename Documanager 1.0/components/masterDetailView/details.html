@@ -1,0 +1,17 @@
+<div data-role="view" data-title="Details" data-model="app.masterDetailView.masterDetailViewModel" data-bind="events: { show: detailsShow }" id="masterDetailViewModelDetailsView">
+    <header data-role="header">
+        <div data-role="navbar" class="header-text">
+            <a data-role="backbutton" data-align="left">Back</a>
+            <span data-bind="text: currentItem.Id" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis; text-align: center; display: block; margin-left: 70px; margin-right: 70px;"></span>
+        </div>
+    </header>
+    <div class="details-content">
+        <h3 data-bind="text: currentItem.ContactName"></h3>
+
+
+    </div>
+    <!-- START_CUSTOM_CODE_masterDetailViewModel -->
+    <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
+
+    <!-- END_CUSTOM_CODE_masterDetailViewModel -->
+</div>

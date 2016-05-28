@@ -24,6 +24,35 @@
       "title": "Contacts",
       "addToNavigation": true,
       "icon": "contacts"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "masterDetailView",
+      "components": [
+        {
+          "type": "kendo-ui-mobile:editableList",
+          "listExtraFields": [],
+          "detailExtraFields": [],
+          "components": [],
+          "name": "masterDetailViewModel",
+          "dataProvider": "documanager10",
+          "collection": "dbo_Customers",
+          "headerField": "ContactName",
+          "iconField": true,
+          "subHeaderField": "Phone",
+          "pullToRefresh": true,
+          "endlessScroll": false,
+          "deleteItemButton": false,
+          "detailHeaderFieldSource": "dataBound",
+          "detailHeaderField": "Id",
+          "detailSubHeaderField": "ContactName",
+          "addItemForm": false,
+          "editItemForm": false
+        }
+      ],
+      "title": "Master Detail",
+      "addToNavigation": true,
+      "icon": "organize"
     }
   ],
   "dataProviders": [
